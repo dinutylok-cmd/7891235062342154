@@ -1,5 +1,4 @@
 flet
-python-telegram-bot
-cryptography
+pyTelegramBotAPI
 plyer
 Pillow
