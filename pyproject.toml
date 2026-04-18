@@ -1,1 +1,24 @@
+[project]
+name = "secretchat"
+version = "1.0.0"
+dependencies = [
+    "flet",
+    "python-telegram-bot",
+    "cryptography",
+    "plyer",
+    "Pillow"
+]
 
+[tool.flet]
+org = "com.secretchat.app"
+product = "Секретный чат"
+company = "Fun Apps"
+
+[tool.flet.android.permissions]
+"android.permission.INTERNET" = true
+"android.permission.READ_EXTERNAL_STORAGE" = true
+"android.permission.WRITE_EXTERNAL_STORAGE" = true
+"android.permission.CAMERA" = true
+"android.permission.RECORD_AUDIO" = true
+"android.permission.VIBRATE" = true
+"android.permission.POST_NOTIFICATIONS" = true
