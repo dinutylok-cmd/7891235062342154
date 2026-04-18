@@ -1,1 +1,5 @@
-
+flet
+python-telegram-bot
+cryptography
+plyer
+Pillow
